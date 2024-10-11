@@ -11,7 +11,7 @@ class Rectangle{
         return this._width
     }
     getArea(){
-        console.log(this._heigth*this._width)
+        console.log(this.heigth*this.width)
     }
 }
 
