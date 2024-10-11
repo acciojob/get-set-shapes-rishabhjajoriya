@@ -19,7 +19,7 @@ class Square extends Rectangle{
     constructor(s){
         super(s,s)
     }
-    getP(){
+    getPerimeter(){
         console.log(this.width*4)
     }
 }
