@@ -2,16 +2,16 @@
 class Rectangle{
     constructor(a,b){
         this._width = a
-        this._heigth = b
+        this._height = b
     }
     get height(){
-        return this._heigth
+        return this._height
     }
     get width(){
         return this._width
     }
     getArea(){
-        console.log(this.heigth*this.width)
+        console.log(this.height*this.width)
     }
 }
 
